@@ -20,6 +20,7 @@ h1,
 h2,
 h3 {
   color: var(--color-heading);
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -30,4 +31,8 @@ h2 {
 }
 h3 {
   font-size: 3rem;
+}
+
+p {
+  margin-top: 0;
 }
