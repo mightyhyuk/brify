@@ -63,3 +63,11 @@ a {
   font-size: 2rem;
   font-weight: bold;
 }
+.link-arrow::after {
+  content: "->";
+  margin-left: 5px;
+  transition: margin 0.15s;
+}
+.link-arrow:hover::after {
+  margin-left: 10px;
+}
