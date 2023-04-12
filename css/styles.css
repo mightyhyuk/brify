@@ -52,3 +52,14 @@ p {
     font-size: 2.4rem;
   }
 }
+
+a {
+  text-decoration: none;
+}
+
+.link-arrow {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
