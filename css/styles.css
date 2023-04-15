@@ -53,6 +53,7 @@ p {
   }
 }
 
+/* links */
 a {
   text-decoration: none;
 }
@@ -78,6 +79,7 @@ a {
   }
 }
 
+/* badges */
 .badge {
   border-radius: 20px;
   font-size: 2rem;
@@ -108,4 +110,16 @@ a {
   .badge--small {
     font-size: 1.2rem;
   }
+}
+
+/* lists */
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-heading);
+}
+
+.list--inline .list__item {
+  display: inline-block;
+  margin-right: 2rem;
 }
